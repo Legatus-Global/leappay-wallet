@@ -1,0 +1,69 @@
+{
+  "name": "our_tool_frontend",
+  "version": "0.2.0",
+  "description": "Internet Computer starter application",
+  "keywords": [
+    "Internet Computer",
+    "Motoko",
+    "JavaScript",
+    "Canister"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "prebuild": "dfx generate",
+    "start": "webpack serve --mode development --env development",
+    "deploy:local": "dfx deploy --network=local",
+    "deploy:ic": "dfx deploy --network=ic",
+    "generate": "dfx generate our_tool_backend"
+  },
+  "dependencies": {
+    "@dfinity/agent": "^0.19.3",
+    "@dfinity/auth-client": "^0.19.3",
+    "@dfinity/candid": "^0.19.3",
+    "@dfinity/ledger-icp": "^1.0.0",
+    "@dfinity/ledger-icrc": "^1.0.0",
+    "@dfinity/nns": "^2.0.0",
+    "@dfinity/principal": "^0.19.3",
+    "@dfinity/utils": "^1.0.0",
+    "bootstrap": "^5.3.2",
+    "css-loader": "^6.8.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.11.0",
+    "react-qr-code": "^2.0.12",
+    "react-qr-scanner": "^1.0.0-alpha.11",
+    "react-router-dom": "^6.18.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "scss": "^0.2.4",
+    "style-loader": "^3.3.3"
+  },
+  "devDependencies": {
+    "assert": "2.0.0",
+    "buffer": "6.0.3",
+    "copy-webpack-plugin": "^11.0.0",
+    "dotenv": "^16.0.3",
+    "events": "3.3.0",
+    "html-webpack-plugin": "5.5.0",
+    "process": "0.11.10",
+    "stream-browserify": "3.0.0",
+    "terser-webpack-plugin": "^5.3.3",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "util": "0.12.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "engines": {
+    "node": "^12 || ^14 || ^16 || ^18"
+  },
+  "browserslist": [
+    "last 2 chrome version",
+    "last 2 firefox version",
+    "last 2 safari version",
+    "last 2 edge version"
+  ]
+}

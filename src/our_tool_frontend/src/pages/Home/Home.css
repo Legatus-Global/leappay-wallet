@@ -1,0 +1,371 @@
+:root {
+  --padding: 8px;
+  --padding-4x: 32px;
+  --padding-2x: 16px;
+  --color-white: #ffffff;
+  --color-blue: #0000ff;
+  --border-radius-sm: 4px;
+  --padding-1_5x: 12px;
+  --padding-3x: 24px;
+  /* Define other variables as needed */
+}
+
+
+.wallet-screen {
+  background-color: white;
+  color: #000000;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  position: relative;
+  height: 100vh;
+}
+
+.wallet-screen .content {
+  width: 20%;
+  margin: auto;
+  padding: 4rem 2rem 3rem 2rem;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #FCFAF6;
+}
+
+.wallet-screen .content .account-deatils .heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wallet-screen .content .account-deatils .heading img {
+  width: 16px;
+  background-color: #ddcfeb;
+  padding: 0.6rem;
+  border-radius: 10px;
+}
+
+.wallet-screen .content .account-deatils .heading span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 1px grey;
+}
+
+.wallet-screen .content .account-deatils .account {
+  margin: 1rem 0;
+}
+
+.wallet-screen .content .account-deatils .account .account-name {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wallet-screen .content .account-deatils .account .account-name .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wallet-screen .content .account-deatils .account .account-name .btn button {
+  outline: unset;
+  border: unset;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #c596f0;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wallet-screen .content .account-deatils .account .account-address {
+  font-size: 0.9rem;
+  width: 100%;
+  word-wrap: break-word;
+  margin-top: 0.4rem;
+}
+
+.wallet-screen .content .main {
+  margin-top: 1.5rem;
+}
+
+.wallet-screen .content .main .heading {
+  font-size: 0.8rem;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.wallet-screen .content .main .balance {
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.6rem;
+  font-weight: 700;
+}
+
+.wallet-screen .content .main .balance .float-balance {
+  font-size: 0.9rem;
+}
+
+.wallet-screen .content .all-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.wallet-screen .content .all-btns .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wallet-screen .content .all-btns .btn button {
+  outline: unset;
+  border: unset;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #c596f0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wallet-screen .content .all-btns .btn label {
+  margin-top: 0.4rem;
+  font-size: 0.7rem;
+}
+
+.wallet-screen .content .reload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 70vh;
+  gap: 12px;
+}
+
+.wallet-screen .content .reload-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.wallet-screen .items:focus {
+  box-shadow: 1px 1px 12px 2px #fff !important;
+}
+
+@media screen and (max-width: 600px) {
+  .wallet-screen {
+    padding: 0rem;
+  }
+
+  .wallet-screen .content {
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    height: 100vh;
+    padding: 2rem 1.5rem 1rem 1.5rem;
+    box-sizing: border-box;
+  }
+
+  .wallet-screen .content .all-btns {
+    height: 55%;
+    align-items: flex-end;
+  }
+}
+
+@media (min-width: 1024px) {
+  div.svelte-15u1r41 {
+    --circle-size: 634px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  div.svelte-15u1r41 {
+    --circle-size: calc(634px / 1.5);
+  }
+}
+
+.top-right.svelte-15u1r41 {
+  top: calc(var(--circle-size) / 2 * -1);
+  right: calc(var(--circle-size) / 2 * -1);
+}
+
+.svelte-15u1r41 {
+  position: fixed;
+  --circle-size: 634px;
+  width: var(--circle-size);
+  height: var(--circle-size);
+}
+
+div.svelte-15u1r41 {
+  position: fixed;
+  --circle-size: 317px;
+  width: var(--circle-size);
+  height: var(--circle-size);
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.opacity-5 {
+  opacity: .05;
+}
+
+.rounded-50 {
+  border-radius: 50%;
+}
+
+.bg-misty-rose {
+  background: #937993;
+}
+
+.bottom-left.svelte-15u1r41 {
+  bottom: calc(var(--circle-size) / 3 * -1);
+  left: calc(var(--circle-size) / 3 * -1);
+}
+
+section.svelte-l4oydv {
+  position: relative !important;
+  margin: var(--padding-6x) 0 0;
+  width: 100%;
+}
+
+.z-1 {
+  z-index: var(--z-index);
+}
+
+.relative {
+  position: relative !important;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center !important;
+}
+
+.justify-center {
+  justify-content: center !important;
+}
+
+.flex {
+  display: flex !important;
+}
+
+@media (min-width: 576px) {
+  .sm-pb-8 {
+    padding-bottom: var(--padding-8x);
+  }
+
+  .sm-pt-0 {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .sm-px-4 {
+    padding-right: var(--padding-4x);
+    padding-left: var(--padding-4x);
+  }
+}
+
+
+.mb-025 {
+  margin-bottom: var(--padding-0_25x);
+}
+
+.py-4 {
+  padding-top: var(--padding-4x);
+  padding-bottom: var(--padding-4x);
+}
+
+@media (min-width: 320px) {
+  .xs-px-3 {
+    padding-right: var(--padding-3x);
+    padding-left: var(--padding-3x);
+  }
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+@media (min-width: 576px) {
+  .sm-px-4 {
+    padding-right: var(--padding-3x);
+    padding-left: var(--padding-3x);
+  }
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.mb-025 {
+  margin-bottom: var(--padding-0_25x);
+}
+
+.pb-4 {
+  padding-bottom: var(--padding-4x);
+}
+
+@media (min-width: 320px) {
+  .xs-px-3 {
+    padding-right: var(--padding-3x);
+    padding-left: var(--padding-3x);
+  }
+}
+
+p {
+  padding: 0;
+  margin: 0 0 var(--padding-2_5x);
+}
+
+button.ic {
+  padding: var(--padding) var(--padding-4x) var(--padding) var(--padding-2x);
+}
+
+button.secondary,
+button.ic,
+button.user {
+  background: var(--color-white);
+  color: var(--color-blue);
+}
+
+button.primary,
+button.secondary,
+button.user,
+button.ic {
+  justify-content: flex-start;
+  border: 2px solid var(--color-blue);
+  padding: var(--button-padding);
+}
+
+button:not([disabled]) {
+  cursor: pointer;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  gap: var(--padding-1_5x);
+  --button-border-radius: var(--border-radius-sm);
+  border-radius: var(--button-border-radius);
+  transition: color 0.25s ease-out;
+  background: 0.25s ease-out;
+  opacity: 0.25s ease-out;
+  border: 1px solid transparent;
+  --button-padding: var(--padding) var(--padding-3x);
+}
+
+.font-bold {
+  font-weight: var(--font-weight-bold);
+}

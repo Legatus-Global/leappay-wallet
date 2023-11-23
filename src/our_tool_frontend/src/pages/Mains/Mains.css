@@ -1,0 +1,157 @@
+main,
+.main {
+    margin: 0 auto;
+    padding: 0 var(--padding-2x) var(--padding-3x);
+    max-width: 576px;
+}
+
+.text-base {
+    font-size: 1rem;
+}
+
+.mt-6 {
+    margin-top: var(--padding-6x);
+}
+
+.mb-3 {
+    margin-bottom: var(--padding-3x);
+}
+
+.pb-0\.5 {
+    padding-bottom: var(--padding-0_5x);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: var(--font-weight-bold);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-title);
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    text-decoration: underline;
+    cursor: pointer;
+    word-break: break-word;
+}
+
+button:not([disabled]) {
+    cursor: pointer;
+}
+
+.contents {
+    display: contents;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: var(--padding-1_5x);
+    --button-border-radius: var(--border-radius-sm);
+    border-radius: var(--button-border-radius);
+    transition: color .25s ease-out, background .25s ease-out, opacity .25s ease-out;
+    border: 1px solid transparent;
+    --button-padding: var(--padding) var(--padding-3x);
+}
+
+.gap-2 {
+    gap: var(--padding-2x);
+}
+
+.mb-3 {
+    margin-bottom: var(--padding-3x);
+}
+
+.flex {
+    display: flex;
+}
+
+.relative {
+    position: relative;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.font-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+.gap-1 {
+    gap: var(--padding);
+}
+
+.items-center {
+    align-items: center;
+}
+
+.clamp-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.mb-3 {
+    margin-bottom: var(--padding-3x);
+}
+
+.rounded-50 {
+    border-radius: 50%;
+}
+
+.bg-white {
+    background: var(--color-white);
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-inline-size: 100%;
+    max-block-size: 100%;
+}
+
+.inset-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

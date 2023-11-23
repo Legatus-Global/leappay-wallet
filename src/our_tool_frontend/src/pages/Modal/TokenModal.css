@@ -1,0 +1,192 @@
+.wrapper.dialog.svelte-1bbimtl .content.svelte-1bbimtl {
+    margin: 0;
+    padding: var(--dialog-padding-y) var(--dialog-padding-x);
+}
+
+.content.svelte-1bbimtl.svelte-1bbimtl {
+    overflow-y: var(--modal-content-overflow-y, auto);
+    overflow-x: hidden;
+}
+
+div.modal div.content>div:first-child {
+    padding: var(--padding-1_5x) 0 0;
+}
+
+div.svelte-j8eaq1 {
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .qr-code.svelte-16p7uvu {
+        width: calc(var(--dialog-width) - 4 * var(--padding-8x));
+        max-width: inherit;
+    }
+}
+
+.qr-code.svelte-16p7uvu {
+    position: relative;
+    outline-offset: var(--padding-0_25x);
+    outline: var(--color-dark) dashed var(--padding-0_5x);
+    --primary-rgb: 59, 0, 185;
+    overflow: hidden;
+    margin: var(--padding-4x) auto 0;
+    width: 100%;
+    max-width: calc(100% - var(--padding-3x));
+    aspect-ratio: 4/3;
+}
+
+.rounded-lg {
+    border-radius: var(--border-radius-lg);
+}
+
+button.wallet-connect {
+    background: var(--color-wallet-connect);
+    border: 1px solid var(--color-wallet-connect);
+    padding: var(--button-padding);
+}
+
+button:not([disabled]) {
+    cursor: pointer;
+}
+
+.font-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+.text-white {
+    color: var(--color-white);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.inset-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: var(--padding-1_5x);
+    --button-border-radius: var(--border-radius-sm);
+    border-radius: var(--button-border-radius);
+    transition: color .25s ease-out, background .25s ease-out, opacity .25s ease-out;
+    border: 1px solid transparent;
+    --button-padding: var(--padding) var(--padding-3x);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pt-4 {
+    padding-top: var(--padding-4x);
+}
+
+.pb-2 {
+    padding-bottom: var(--padding-2x);
+}
+
+p {
+    padding: 0;
+    margin: 0 0 var(--padding-2_5x);
+}
+
+.input-block.svelte-kabhds.svelte-kabhds {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--padding);
+    width: var(--input-width);
+    color: var(--background-contrast);
+    background: none;
+}
+
+.info.svelte-kabhds.svelte-kabhds {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--padding);
+}
+
+.info.svelte-kabhds .label.svelte-kabhds {
+    flex: 1 1 100%;
+}
+
+.input-field.svelte-kabhds.svelte-kabhds {
+    position: relative;
+}
+
+div.input-field input[id] {
+    padding: var(--padding-1_5x);
+}
+
+input.svelte-kabhds.svelte-kabhds {
+    background: var(--input-background);
+    color: var(--input-background-contrast);
+    border: var(--input-border-size) solid var(--input-error-color, var(--input-custom-border-color, var(--input-border-color)));
+    transition: color var(--animation-time-short) ease-out, background var(--animation-time-short) ease-out, border var(--animation-time-short) ease-in;
+    width: 100%;
+    font-size: inherit;
+    padding: var(--padding-2x);
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.gap-1 {
+    gap: var(--padding);
+}
+
+.mt-2 {
+    margin-top: var(--padding-2x);
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.flex {
+    display: flex;
+}
+
+button.primary {
+    background: var(--color-blue);
+    color: var(--color-white);
+}
+
+button.primary,
+button.secondary {
+    font-weight: var(--font-weight-bold);
+}
+
+button.primary,
+button.secondary,
+button.user,
+button.ic {
+    justify-content: flex-start;
+    border: 2px solid var(--color-blue);
+    padding: var(--button-padding);
+}
+
+.opacity-15 {
+    opacity: .15;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: var(--padding-1_5x);
+    --button-border-radius: var(--border-radius-sm);
+    border-radius: var(--button-border-radius);
+    transition: color .25s ease-out, background .25s ease-out, opacity .25s ease-out;
+    border: 1px solid transparent;
+    --button-padding: var(--padding) var(--padding-3x);
+}

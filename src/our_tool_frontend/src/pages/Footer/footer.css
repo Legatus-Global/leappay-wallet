@@ -1,0 +1,78 @@
+.z-1 {
+    z-index: var(--z-index);
+}
+
+.gap-3 {
+    gap: var(--padding-3x);
+}
+
+.mt-3 {
+    margin-top: var(--padding-3x);
+}
+
+.pt-8 {
+    padding-top: var(--padding-8x);
+}
+
+.pb-4 {
+    padding-bottom: var(--padding-4x);
+}
+
+.px-2 {
+    padding-right: var(--padding-2x);
+}
+
+.px-2 {
+    padding-left: var(--padding-2x);
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.font-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+.flex {
+    display: flex;
+}
+
+a,
+button {
+    cursor: revert;
+}
+
+a,
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    color: inherit;
+}
+
+a {
+    color: inherit;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    text-decoration: underline;
+    cursor: pointer;
+    word-break: break-word;
+}
