@@ -1,0 +1,1 @@
+# dfx --identity ic_legatus canister call legatus_ledger icrc1_transfer "(record { to = record { owner = principal \"sywbd-ce6x2-dxc3o-gkzlj-yqmyc-depxl-zj2gi-enxnz-ytkhn-dydk2-kqe\" }; amount = 1000000000000 })" --network ic
